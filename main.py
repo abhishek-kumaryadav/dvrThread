@@ -92,11 +92,12 @@ def router(idRouter, rTable, sharedQ, adjRouters, locks, barrier):
         # data = (node.routingTable, senderIndex)
         for adj in adjRouters:
             locks[adj].acquire()
-            sharedQ[adj].put((copy.deepcopy(rTable), idRouter))
+            dcopy = copy.deepcopy(rTable)
+            sharedQ[adj].put((dcopy, idRouter))
             locks[adj].release()
         # This barrier conommitted and instead locks can be used to retrieve data to maintaining concurrency and data integrity
         # I have used barrier to simplify code execution and understanding
-        barrier.wait()  # Waiting for everyone to send data
+        # barrier.wait()  # Waiting for everyone to send data
 
         # Retreiving data and calculating new routing Table
         updated = [0] * len(rTable)  # Used to check if node.routingTable gets updated
