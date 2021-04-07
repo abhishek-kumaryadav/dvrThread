@@ -1,0 +1,6 @@
+3
+X Y Z
+X Y 1
+X Z 5
+Y Z 2
+EOF

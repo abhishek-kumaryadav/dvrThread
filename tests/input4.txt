@@ -1,0 +1,8 @@
+4
+C A D B
+C A 3
+C B 2
+A B 3
+A D 8
+D B 4
+EOF
