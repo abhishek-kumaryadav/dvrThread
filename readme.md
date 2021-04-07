@@ -123,6 +123,14 @@ _ prints log
 
 ## Testing
 
+Various test files were used to check:
+
+- accuracy
+- concurrency
+
+<details>
+  	<summary>Check all tests!</summary>
+
 [test1.txt](./tests/input1.txt)
 
 ```
@@ -215,6 +223,8 @@ EOF
 ```
 
 ![](./src/test6.png)
+
+</details>
 
 <!-- ROADMAP -->
 
