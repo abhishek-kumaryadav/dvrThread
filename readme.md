@@ -49,6 +49,7 @@
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#what-i-learned">What I Learned</a></li>
   </ol>
 </details>
 
@@ -265,6 +266,14 @@ Project Link: [https://github.com/abhk943/dvrThread](https://github.com/abhk943/
 - [geeksforgeeks/distance-vector-routing](https://www.geeksforgeeks.org/distance-vector-routing-dvr-protocol/)
 - [geeksforgeeks/bellman-ford-algorithm](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)
 - [geeksforgeeks/barrier-python](https://www.geeksforgeeks.org/barrier-objects-python/)
+
+<!-- WHAT I LEARNED -->
+
+## What I Learned
+
+- **Working of _Distance Vector Routing_ Protocol.**
+- **_Bellman Ford_ Algorithm**
+- **_Inter-thread communication_ in python.**
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
